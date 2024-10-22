@@ -1,0 +1,52 @@
+https://dosya.co/9yhg5b10qkwn/acunetix.rar.html
+
+
+
+
+
+
+
+
+
+Videosu burada : https://www.youtube.com/watch?v=jPQ3TD73hrI
+
+Acunetix v24.8.240828144 by Pwn3rzs / CyberArsenal
+
+You can find us here:
+https://t.me/Pwn3rzs
+or
+https://cyberarsenal.org
+Enjoy!
+
+Setup:
+1) Download Rar File, password is on our post
+2) Before installing the tool, add to your hosts file (usually C:\Windows\System32\drivers\etc\hosts) at the end:
+
+127.0.0.1  erp.acunetix.com
+127.0.0.1  erp.acunetix.com.
+::1  erp.acunetix.com
+::1  erp.acunetix.com.
+
+192.178.49.174  telemetry.invicti.com
+192.178.49.174  telemetry.invicti.com.
+2607:f8b0:402a:80a::200e  telemetry.invicti.com
+2607:f8b0:402a:80a::200e  telemetry.invicti.com.
+
+3) Now install the tool
+4) Once installed let's stop its services called with Services tool: (use menu or open task manager and go to services tab)
+   - Acunetix
+   - Acunetix Database
+
+5) Let's replace wvsc file: 
+  - move wvsc.exe inside C:\Program Files (x86)\Acunetix\24.8.240828144\wvsc.exe
+
+6) Time to add licenses:
+  - Delete all files inside C:\ProgramData\Acunetix\shared\license\
+  - Move license_info.json and wa_data.dat inside C:\ProgramData\Acunetix\shared\license , select both, right click and set check the box "Read Only"
+
+7) Now let's restart acunetix:
+  - Acunetix
+  - Acunetix Database
+
+8) Now login back to application, and you should be able to use it :)
+9) Enjoy!
